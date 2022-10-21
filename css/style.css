@@ -880,18 +880,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   left: 12px;
   transform: translateY(-50%);
 }
-.svg-form{
-  width: 18px;
-  height: 18px;
-  fill: #000000;
-}
-.form-element input :focus,
-.form-element input :hover{
+
+.form-element :focus-within input{
   border: 1px solid #2196F3;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-element input :focus + svg,
-.form-element input :hover + svg{
+.form-element input :focus-within svg{
   fill: #2196F3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
