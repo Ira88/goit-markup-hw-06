@@ -412,6 +412,13 @@
               </li>
         </ul>
         </div>
+        <div class="booking">
+        <h3 class="footer-social item">Підпишіться на розсилку</h3>
+        <form action="" class="footer-form">
+            <input type="email" id="email" name="email" placeholder="E-mail"/>
+         <button type="submit" class="footer-btn">Підписатися</button>
+        </form>
+        </div>
     </div>
     </div>
     </div>
@@ -421,7 +428,7 @@
     <div class="modal">
         <button type="button" class="close-button" data-modal-close>
             <a href="">
-                <svg class="svg-close" viewBox="0 0 32 32 ">
+                <svg class="svg-close" viewBox="0 0 32 32">
                 <use href="./imeges/contact.svg#icon-close"></use>
             </svg>
             </a>
@@ -432,35 +439,37 @@
                 <label class="text-form" for="name">Ім'я</label>
                 <div class="input-wrapper">
                 <input type="text" id="name" name="name"/>
-                <svg class="svg-form" widht="18" viewBox="0 0 32 32 ">
+                <svg class="svg-form" widht="18" viewBox="0 0 32 32">
                     <use href="./imeges/modal.svg#icon-person"></use>
                 </svg>
             </div>
                 <label class="text-form" for="tel">Телефон</label>
                 <div class="input-wrapper">
                 <input type="tel" id="tel" name="tel"/>
-                <svg class="svg-form" widht="18" viewBox="0 0 32 32 ">
+                <svg class="svg-form" widht="18" viewBox="0 0 32 32">
                     <use href="./imeges/modal.svg#icon-phone"></use>
                 </svg>
             </div>
                 <label class="text-form" for="email">Пошта</label>
                 <div class="input-wrapper">
                 <input type="email" id="email" name="email"/>
-                <svg class="svg-form" widht="18" viewBox="0 0 32 32 ">
+                <svg class="svg-form" widht="18" viewBox="0 0 32 32">
                     <use href="./imeges/modal.svg#icon-email"></use>
                 </svg>
             </div>
                 <label class="text-form" for="coment">Коментар</label>
                 <textarea class="coment" name="coment" id="coment" cols="" rows=""placeholder="Введіть текст"></textarea>
             </div>
-            <input type="checkbox" name="topic" value="" id="topic" checked>
-            <label for="topic" class="topic-text">Погоджуюся з розсилкою та приймаю <a href=""class="current-modal">
-                <span class="accent-modal">Умови договору</span></a></label>
-                <div class="topic-wrapper">
-                    <svg class="svg-form" widht="18" viewBox="0 0 32 32 ">
-                        <use href="./imeges/modal.svg#icon-Vector"></use>
+            <div class="topic">
+                <input type="checkbox" name="topic" value="" id="topic" class="accept" required>
+                <div class="checkbox">
+                    <svg class="svg-gal" widht="11" viewBox="0 0 42 32">
+                        <use href="./imeges/modal.svg#icon-gal"></use>
                     </svg>
                 </div>
+                <label for="topic" class="topic-text">Погоджуюся з розсилкою та приймаю <a href=""class="current-modal">
+                    <span class="accent-modal">Умови договору</span></a></label>
+            </div>
                       <button type="submit" class="modal-btn">Відправити</button>
         </form>
     </div>
