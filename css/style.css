@@ -809,7 +809,6 @@ padding-bottom: 20px;
   border: none;
   background: none;
   height: 40px;
-  font-size: 20px;
   border-radius: 4px;
   padding-left: 12px;
   cursor: pointer;
@@ -842,6 +841,17 @@ padding-left: 28px;
   width: 24px;
   height: 24px;
   padding-left: 10px;
+}
+.footer-form :focus{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 
 /*---modal---*/
