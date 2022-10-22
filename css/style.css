@@ -788,13 +788,60 @@ padding-bottom: 20px;
 .booking{
   width: 570px;
   height: 86px;
-  padding-left: 93px;
+  margin-left: auto;
+}
+.booking-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+padding-bottom: 20px;
 }
 .footer-form{
   display: flex;
-  align-items: center;
-  justify-content: center;
   column-gap: 12px;
+}
+.footer-form input{
+  border: none;
+  background: none;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding-left: 12px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width:358px;
+  height: 50px;
+}
+.footer-btn{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+background-color: #2196F3;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+border-radius: 4px;
+width: 200px;
+height: 50px;
+border: none;
+padding-left: 28px;
+}
+.svg-booking{
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
 }
 
 /*---modal---*/
