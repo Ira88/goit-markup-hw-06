@@ -853,15 +853,15 @@ justify-content: center;
   height: 24px;
   margin-left: 10px;
 }
-.footer-form{
+.text-mail{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #fff
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-form :focus{
+.text-mail :focus{
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -873,7 +873,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-form::placeholder{
+.text-mail ::placeholder{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
