@@ -861,7 +861,7 @@ justify-content: center;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.6);
 }
-.text-mail :focus{
+.text-mail input :focus{
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
